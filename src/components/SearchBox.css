@@ -1,0 +1,12 @@
+.search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

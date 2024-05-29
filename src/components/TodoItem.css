@@ -1,0 +1,38 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .todo-item h3,
+  .todo-item p {
+    margin: 0;
+  }
+  
+  .todo-item .task-number {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .todo-item.completed h3,
+  .todo-item.completed p {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-item button:hover {
+    background-color: #0056b3;
+  }
+  
